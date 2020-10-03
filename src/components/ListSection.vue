@@ -32,7 +32,11 @@ export default {
 
 <style lang="scss" scoped>
   .container {
-    padding: 2em;
+    padding: 4em;
+
+    @media (max-width: 320px) {
+      padding: 2em;
+    }
   }
 
   p {
