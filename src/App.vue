@@ -2,18 +2,24 @@
   <div id="app">
     <WelcomeSection/>
     <ListSection/>
+    <PurchaseSection/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import WelcomeSection from '@/components/WelcomeSection.vue';
 import ListSection from '@/components/ListSection.vue';
+import PurchaseSection from '@/components/PurchaseSection.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
     WelcomeSection,
     ListSection,
+    PurchaseSection,
+    Footer,
   },
 };
 </script>

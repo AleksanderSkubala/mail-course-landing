@@ -5,16 +5,16 @@
     <h1>Jaka jest cena warsztatów?</h1>
     <h2>Zyskujesz:</h2>
     <ul>
-      <li><span><b>10 orginalnych pomysłów</b> na projekt</span></li>
-      <li><span>Solidną podstawe dla <b>portfolio</b>, które wpadnie w oko</span></li>
-      <li><span><b>Code review</b> dla każdej aplikacji</span></li>
-      <li><span><b>Grupe mastermind</b>, która pomoże się rozwijać</span></li>
-      <li><span><b>Umięjetności</b> jakich nie dostaniesz w żadnym kursie!<br/>- np. praca z dokumentacją, szukanie bibliotek</span></li>
+      <li><span><b>10 orginalnych pomysłów</b> na projekt<br/>Jeżeli kiedyś miałeś pustkę w głowie i nie wiedziałeś co zrobić teraz będziesz wiedział. 😉</span></li>
+      <li><span>Solidną podstawe dla <b>portfolio</b>, które wpadnie w oko<br/>Rekruterzy <b>mają dość</b> list To-Do i timerów w portofilach, teraz zrobisz coś co się wyróżni!</span></li>
+      <li><span><b>Code review</b> dla każdej aplikacji<br/>Dostaniesz kompletne i szczegółowe spojrzenie na napisany kod (tego nie dostaniesz na Udemy), jak wiadomo najlepsza jest nauka przez praktykę.</span></li>
+      <li><span><b>Grupe mastermind</b>, która pomoże się rozwijać<br/>Dzięki grupie na FaceBooku zdobędziesz nowe kontakty, będziesz miał wsparcie i motywację w nauce, dostaniesz podsumowania zadań i ciekawe materiały.</span></li>
+      <li><span><b>Umięjetności</b> jakich nie dostaniesz w żadnym kursie!<br/>Kurs na żadnej z popularnych platform nie nauczy cię korzystania z dokumentacji, nie pokaże jak wyszukiwać biblioteki do danych problemów i przede wszystkim w takich kursach nigdy nie ma błędów w kodzie!</span></li>
     </ul>
     <div class="price">
       <h3>Cena warsztatów wynosi:</h3>
       <h2 class="cost">100zł</h2>
-      <Button msg="Zapisz się!"/>
+      <Button msg="Zapisz się!" v-scroll-to="'#purchase'"/>
     </div>
   </div>
 </template>
