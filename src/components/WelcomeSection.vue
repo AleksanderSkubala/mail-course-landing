@@ -3,6 +3,7 @@
     <div class="content">
       <h1>Stwórz swoje portfolio</h1>
       <p>Zapisz się i przez ponad miesiąc twórz różne projekty, ucząc się i wzbogacajać swoje CV!</p>
+      <Button msg="Zapisz się!" class="button" v-scroll-to="'#purchase'"/>
     </div>
     <div class="graphic">
       <Ilustration />
@@ -14,10 +15,12 @@
 
 <script>
 import Ilustration from '@/assets/Ilustration.svg';
+import Button from './Button.vue';
 
 export default {
   components: {
     Ilustration,
+    Button,
   },
 };
 </script>
@@ -53,15 +56,16 @@ export default {
   width: 70vw;
   align-self: center;
   justify-self: center;
-  margin-top: 40px;
+  margin-top: 30px;
 
   @media (min-width: 768px) {
     width: 40vw;
+    margin-top: 0;
+    align-self: flex-end;
   }
 
   @media (min-width: 1024px) {
     width: 30vw;
-    align-self: flex-end;
   }
 
   @media (min-width: 1440px) {
@@ -75,5 +79,9 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
+}
+
+.button {
+  margin-top: 20px;
 }
 </style>
