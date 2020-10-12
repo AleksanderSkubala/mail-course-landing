@@ -30,7 +30,7 @@ export default {
   data() {
     return {
       isFinished: false,
-      deadline: '2020-10-11 20:0:00',
+      deadline: '2020-10-21 20:00:00',
     };
   },
   methods: {
@@ -38,7 +38,7 @@ export default {
       this.isFinished = true;
     },
   },
-  computed() {
+  mounted() {
     const today = new Date();
     const deadlineDate = new Date(this.deadline);
 
