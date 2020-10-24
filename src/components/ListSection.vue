@@ -13,7 +13,7 @@
     </ul>
     <div class="price">
       <h3>Cena warsztatów wynosi:</h3>
-      <h2 class="cost">100zł</h2>
+      <h2 class="cost">300zł</h2>
       <Button msg="Zapisz się!" v-scroll-to="'#purchase'"/>
     </div>
   </div>
