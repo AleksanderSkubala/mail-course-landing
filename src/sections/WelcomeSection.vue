@@ -6,6 +6,7 @@
         Swoje<br/>
         Portfolio<br/>
       </h1>
+      <Button class="customButton" v-scroll-to="'#purchase'">Zapisz się</Button>
     </div>
     <Illustration class="intro__illustration"/>
   </div>
@@ -13,11 +14,13 @@
 
 <script>
 import Illustration from '../assets/graphic.svg';
+import Button from '../components/Button.vue';
 
 export default {
   name: 'WelcomeSection',
   components: {
     Illustration,
+    Button,
   },
 };
 </script>

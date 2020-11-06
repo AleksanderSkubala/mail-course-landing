@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import WelcomeSection from './components/WelcomeSection.vue';
+import WelcomeSection from './sections/WelcomeSection.vue';
 
 export default {
   name: 'App',
