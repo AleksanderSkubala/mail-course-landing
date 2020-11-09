@@ -2,18 +2,21 @@
   <div id="app">
     <WelcomeSection/>
     <DescriptionSection/>
+    <HeroSection/>
   </div>
 </template>
 
 <script>
 import WelcomeSection from './sections/WelcomeSection.vue';
 import DescriptionSection from './sections/DescriptionSection.vue';
+import HeroSection from './sections/HeroSection.vue';
 
 export default {
   name: 'App',
   components: {
     WelcomeSection,
     DescriptionSection,
+    HeroSection,
   },
 };
 </script>
@@ -56,6 +59,6 @@ export default {
 
   .container {
     width: 100vw;
-    margin-top: 10vw;
+    margin-top: 15vw;
   }
 </style>
