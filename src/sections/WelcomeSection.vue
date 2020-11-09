@@ -33,7 +33,7 @@ export default {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px 80px;
+    padding: 20px 60px;
 
     &::after {
       content: '';
@@ -54,6 +54,7 @@ export default {
       display: grid;
       grid-template-columns: 0.9fr 1fr;
       height: 100vh;
+      padding: 20px 80px;
     }
   }
 
@@ -69,7 +70,7 @@ export default {
   }
 
   .intro__illustration {
-    width: 145%;
+    width: 120%;
     height: auto;
 
     @media (min-width: 768px) {

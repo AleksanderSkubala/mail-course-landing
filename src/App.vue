@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <WelcomeSection/>
+    <DescriptionSection/>
   </div>
 </template>
 
 <script>
 import WelcomeSection from './sections/WelcomeSection.vue';
+import DescriptionSection from './sections/DescriptionSection.vue';
 
 export default {
   name: 'App',
   components: {
     WelcomeSection,
+    DescriptionSection,
   },
 };
 </script>
@@ -24,7 +27,7 @@ export default {
     min-height: 100vh;
     overflow-x: hidden;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.55;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -39,11 +42,11 @@ export default {
   }
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
 
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
   img {
