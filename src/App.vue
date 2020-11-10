@@ -1,52 +1,67 @@
 <template>
   <div id="app">
     <WelcomeSection/>
-    <ListSection/>
+    <DescriptionSection/>
+    <HeroSection/>
     <PurchaseSection/>
-    <Footer/>
   </div>
 </template>
 
 <script>
-import WelcomeSection from '@/components/WelcomeSection.vue';
-import ListSection from '@/components/ListSection.vue';
-import PurchaseSection from '@/components/PurchaseSection.vue';
-import Footer from '@/components/Footer.vue';
+import WelcomeSection from './sections/WelcomeSection.vue';
+import DescriptionSection from './sections/DescriptionSection.vue';
+import HeroSection from './sections/HeroSection.vue';
+import PurchaseSection from './sections/PurchaseSection.vue';
 
 export default {
   name: 'App',
   components: {
     WelcomeSection,
-    ListSection,
+    DescriptionSection,
+    HeroSection,
     PurchaseSection,
-    Footer,
   },
 };
 </script>
 
 <style lang="scss">
-body, html {
-  margin: 0;
-  padding: 0;
-  font-family: system-ui, sans-serif;
-  overflow-x: hidden;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-ul {
-  list-style-type: circle;
-  font-size: 1.1em;
-
-  li {
-    color: #ff5500;
-    margin-bottom: 7px;
-
-    span {
-      color: black;
-    }
+  body, html {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-}
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  img {
+    height: auto;
+    display: block;
+  }
+
+  .container {
+    width: 100vw;
+    margin-top: 10vw;
+  }
 </style>
