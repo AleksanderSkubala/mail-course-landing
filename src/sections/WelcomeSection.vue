@@ -6,7 +6,7 @@
         Swoje<br/>
         Portfolio<br/>
       </h1>
-      <Button class="customButton" v-scroll-to="'#purchase'">Zapisz się</Button>
+      <Button v-scroll-to="'#purchase'">Zapisz się</Button>
     </div>
     <Illustration class="intro__illustration"/>
   </div>

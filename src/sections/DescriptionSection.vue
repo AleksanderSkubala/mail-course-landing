@@ -1,15 +1,21 @@
 <template>
-  <section class="container description">
+  <section class="description">
     <h1>O co chodzi?</h1>
     <p>Przez mail dostaniesz 10 zadań ze specyfikacją różnych nietypowych projektów, które możesz wykonać.</p>
     <p>Następnie gdy odeślesz link do repozytorium, otrzymasz poprawki wraz z komentarzem i radami na przyszłość.</p>
     <p>W taki sposób możesz zbudować portfolio, które wyróżni się w oczach rekrutera. Dodatkowo do pracy i dalszego rozwoju będzie cię motywować grupa innych adeptów sztuki programowania. 😉</p>
+    <Button v-scroll-to="'#purchase'">Dołącz</Button>
   </section>
 </template>
 
 <script>
+import Button from '../components/Button.vue';
+
 export default {
   name: 'DescriptionSection',
+  components: {
+    Button,
+  },
 };
 </script>
 

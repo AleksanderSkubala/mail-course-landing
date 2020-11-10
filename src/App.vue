@@ -3,6 +3,7 @@
     <WelcomeSection/>
     <DescriptionSection/>
     <HeroSection/>
+    <PurchaseSection/>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import WelcomeSection from './sections/WelcomeSection.vue';
 import DescriptionSection from './sections/DescriptionSection.vue';
 import HeroSection from './sections/HeroSection.vue';
+import PurchaseSection from './sections/PurchaseSection.vue';
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     WelcomeSection,
     DescriptionSection,
     HeroSection,
+    PurchaseSection,
   },
 };
 </script>
@@ -59,6 +62,6 @@ export default {
 
   .container {
     width: 100vw;
-    margin-top: 15vw;
+    margin-top: 10vw;
   }
 </style>
