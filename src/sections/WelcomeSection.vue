@@ -72,9 +72,16 @@ export default {
   .intro__illustration {
     width: 120%;
     height: auto;
+    max-height: 70vh;
 
     @media (min-width: 768px) {
-      width: 110%;
+      width: 90%;
+      justify-self: start;
+    }
+
+    @media (min-width: 1024px) {
+      width: 55%;
+      justify-self: start;
     }
   }
 </style>

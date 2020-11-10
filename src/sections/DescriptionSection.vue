@@ -31,12 +31,20 @@ export default {
         height: 30px;
         border-radius: 10px;
         transform: rotate(45deg);
-        background-color: #FF5500;
+        background-color: #ff8833;
       }
     }
 
     @media (max-width: 768px) {
       padding: 25px;
+    }
+
+    @media (min-width: 1024px) {
+      p {
+        max-width: 810px;
+        width: 60%;
+        font-size: 1.1rem;
+      }
     }
   }
 </style>

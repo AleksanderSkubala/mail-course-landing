@@ -18,7 +18,6 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 90px;
     text-align: center;
     color: white;
     position: relative;
@@ -26,7 +25,7 @@ export default {
     background-image: url('../assets/codingImage.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-position: 30%;
+    background-position: 50%;
 
     &::before {
       content: '';
@@ -42,6 +41,7 @@ export default {
   }
 
   .hero__content {
+    width: 70%;
     position: relative;
     z-index: 2;
   }

@@ -30,7 +30,7 @@
 
     &::before {
       z-index: -2;
-      background-color: #FF5500;
+      background-color: #ff8833;
       top: 3px;
       left: -3px;
     }
