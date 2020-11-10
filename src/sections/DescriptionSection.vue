@@ -4,7 +4,7 @@
     <p>Przez mail dostaniesz 10 zadań ze specyfikacją różnych nietypowych projektów, które możesz wykonać.</p>
     <p>Następnie gdy odeślesz link do repozytorium, otrzymasz poprawki wraz z komentarzem i radami na przyszłość.</p>
     <p>W taki sposób możesz zbudować portfolio, które wyróżni się w oczach rekrutera. Dodatkowo do pracy i dalszego rozwoju będzie cię motywować grupa innych adeptów sztuki programowania. 😉</p>
-    <Button v-scroll-to="'#purchase'">Dołącz</Button>
+    <Button class="description__button" v-scroll-to="'#purchase'">Dołącz</Button>
   </section>
 </template>
 
@@ -52,5 +52,9 @@ export default {
         font-size: 1.1rem;
       }
     }
+  }
+
+  .description__button {
+    margin-top: 40px;
   }
 </style>

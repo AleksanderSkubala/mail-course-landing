@@ -7,7 +7,7 @@
       <b>Imię i nazwisko:</b> Aleksander Skubała<br/>
       <b>tytuł:</b> WARSZTATY - <b>nazwa maila</b><br/>
     </p>
-    <h3>150 zł</h3>
+    <h1>150 zł</h1>
   </section>
 </template>
 
@@ -20,20 +20,25 @@ export default {
 <style lang="scss">
   .purchase {
     padding: 20px 30px;
+    position: relative;
 
     &::before {
       content: '';
       position: absolute;
       z-index: -1;
-      width: 260px;
-      height: 260px;
+      width: 290px;
+      height: 290px;
       background-color: #ff8833;
       border-radius: 30px;
-      transform: translateX(-40%) rotate(45deg);
+      transform: translateX(-35%) translateY(15%) rotate(45deg);
     }
 
     @media (min-width: 768px) {
       padding: 20px 80px;
+
+      &::before {
+        transform: translateX(-45%) rotate(45deg);
+      }
     }
   }
 </style>
