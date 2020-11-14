@@ -4,6 +4,7 @@
     <DescriptionSection/>
     <HeroSection/>
     <PurchaseSection/>
+    <FooterSection/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import WelcomeSection from './sections/WelcomeSection.vue';
 import DescriptionSection from './sections/DescriptionSection.vue';
 import HeroSection from './sections/HeroSection.vue';
 import PurchaseSection from './sections/PurchaseSection.vue';
+import FooterSection from './sections/FooterSection.vue';
 
 export default {
   name: 'App',
@@ -20,6 +22,7 @@ export default {
     DescriptionSection,
     HeroSection,
     PurchaseSection,
+    FooterSection,
   },
 };
 </script>
